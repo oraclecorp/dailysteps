@@ -2,8 +2,10 @@ name: dailysteps
 
 on:
   workflow_dispatch:
+  
   schedule:
     - cron: "10 4 * * *"
+    
   watch:
     types: [started]
     
