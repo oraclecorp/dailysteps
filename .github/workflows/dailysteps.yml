@@ -21,4 +21,4 @@ jobs:
           user='${{ secrets.USER }}'
           pwd='${{ secrets.PWD }}'
           step='${{ secrets.STEP }}'
-          python3 myrun.py ${user} ${pwd} ${step}
+          python3 steps.py ${user} ${pwd} ${step}
