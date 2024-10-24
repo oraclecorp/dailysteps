@@ -18,7 +18,7 @@ if len(user_list) == len(passwd_list):
         else:
             step=steps
         print (f"设置步数" + step)            
-        url1 = "https://api.qoc.cc/api/mi?user=" + user_list[line] + "&pass=" + passwd_list[line] + "&count=" + step 
+        url1 = "https://api.mmp.cc/api/ZeppLife?user=" + user_list[line] + "&pass=" + passwd_list[line] + "&count=" + step 
         result1 = requests.get(url1)
         print(result1.text)    
 else:
